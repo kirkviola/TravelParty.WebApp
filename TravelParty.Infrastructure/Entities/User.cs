@@ -21,7 +21,7 @@ namespace TravelParty.Infrastructure.Entities
         [BsonElement("lastName")] 
         public string LastName { get; set;} = string.Empty;
         [BsonElement("email")]
-        public string Email { get; set; } = String.Empty;
+        public string Email { get; set; } = string.Empty;
 
         public User() { }
 
